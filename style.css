@@ -1,0 +1,26 @@
+h3{
+    font-size: 25px !important;
+}
+.btn-success:hover{
+    background-color: red;
+}
+canvas{
+    animation-name: TEA ;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes TEA{
+    0%{box-shadow: 1px 1px 38px red;}
+    10%{box-shadow: 1px 1px 38px orange;}
+    20%{box-shadow: 1px 1px 38px yellow;}
+    30%{box-shadow: 1px 1px 38px green;}
+    40%{box-shadow: 1px 1px 38px blue;}
+    50%{box-shadow: 1px 1px 38px purple;}
+    60%{box-shadow: 1px 1px 38px red;}
+    70%{box-shadow: 1px 1px 38px yellow;}
+    80%{box-shadow: 1px 1px 38px blue;}
+    90%{box-shadow: 1px 1px 38px orange;}
+    95%{box-shadow: 1px 1px 38px green;}
+    100%{box-shadow: 1px 1px 38px purple;}
+    
+}
